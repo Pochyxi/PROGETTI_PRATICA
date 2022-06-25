@@ -1,0 +1,75 @@
+* {box-sizing: border-box; text-align: center;}
+.box {
+    transition: all 2s ease-out;
+    font-size: 4em;
+}
+.boxFormat {
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+.boxBorder {
+    border: 3px inset rgba(0, 0, 0, 0.098);
+    outline: 5px outset rgba(0, 0, 0, 0.367);
+    background-color: rgba(255, 238, 0, 0.109);
+}
+.box2 {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quadrato {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 2px;
+}
+.test1,
+.test2,
+.test3,
+.test4,
+.test5,
+.test6,
+.test7 {
+    transition: all 0.5s ease-out;
+    border-radius: 100px;
+    border: 5px groove gray;
+}
+.test1 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.test2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.test3 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.test4 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.test5 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.test6 {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+}
+.test7 {
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+}
